@@ -1,0 +1,57 @@
+  body{
+    min-height: 100%;
+    height: 100%;
+    color: #000;
+  }
+
+/*==============================
+  HEADER FOOTER
+  =====================*/
+
+  header{
+    border-bottom: 1px solid #e2e2e2;
+    height: 50px;
+    margin-top: 0;
+  }
+
+  header, footer {
+    background: linear-gradient(to left,#07485E 20%, #11B8F2 80%);
+    align-items: center;
+    padding: 10px;
+    font-family: 'Fjalla One';
+  }
+
+  header .logo,
+  footer .logo {
+    flex-grow: 1;
+    height: 22px;
+
+  }
+
+  header .logo span,
+  footer .logo span{
+    /*background: url('/images/logo.png') no-repeat;*/
+    display: inline-block;
+    width: 58px;
+    height: 24px;
+  }
+
+  header a,
+  footer a {
+    padding: 20px;
+    text-decoration: none;
+    color: #000
+  }
+
+  footer{
+    position: relative;
+    margin-top: 80%;
+    height: 50px;
+  }
+
+
+footer .social{
+  width: 58px;
+  height: 24px;
+  float: right;
+}
