@@ -4,13 +4,12 @@ import { connect } from 'react-redux';
 
 class ListOfCars extends Component {
 
-  listofCars = ({cars}) =>{
+  listofCars = ({cars}) => {
       if(cars){
         return cars.map((car)=>{
           return(
             <div className="car_item" key={car.id}>
               {car.model}
-
             </div>
           )
         })

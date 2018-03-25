@@ -9,4 +9,4 @@ class Car extends Component{
 }
 
 
-export default Car
+export default Car;
